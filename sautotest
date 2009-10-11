@@ -1,0 +1,6 @@
+#!/bin/sh
+
+BASE=`echo $(cd $(dirname $0); pwd)`
+CLASSPATH=$BASE/scala-autotest.jar
+
+scala -cp $CLASSPATH org.taoyag.autotest.AutoTest
