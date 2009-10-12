@@ -9,6 +9,10 @@ import scala.io._
 object AutoTest {
 
   def main(args: Array[String]) {
+    start
+  }
+
+  def start {
     val files = getFiles("src/main/scala") ++ getFiles("src/test/scala")
     files.foreach(observe)
   }
@@ -109,3 +113,4 @@ object Command {
     output.toString
   }
 }
+

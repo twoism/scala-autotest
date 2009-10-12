@@ -24,4 +24,3 @@ object AutoTestSpec extends Specification {
 }
 class AutoTestTest extends JUnit4(AutoTestSpec)
 object MySpecRunner extends ConsoleRunner(AutoTestSpec)
-
